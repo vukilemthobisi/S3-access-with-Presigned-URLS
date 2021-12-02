@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "s3uploader"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-yyjelql4deq1"
+s3_prefix = "s3uploader"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
